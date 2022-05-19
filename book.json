@@ -31,7 +31,13 @@
         "sharing-plus",
         "anchor-navigation-ex",
         "favicon",
-        "summary"
+        "summary",
+    	"expandable-chapters-small",
+    	"editlink",
+        "copy-code-button",
+        "prism", 
+        "-highlight",
+        "simple-mind-map"
     ],
     "pluginsConfig": {
         "github": {
@@ -87,6 +93,17 @@
                 "120x120": "./source/images/apple-touch-icon.jpg",
                 "180x180": "./source/images/apple-touch-icon.jpg"
             }
+        },
+    	"editlink": {
+          "base": "https://github.com/zhaoda/webpack-handbook/edit/master/content",
+          "label": "Edit This Page",
+          "multilingual": false
+        },
+        "simple-mind-map": {
+            "type": "markdown",
+            "preset": "colorful",
+            "linkShape": "diagonal",
+            "autoFit": true
         }
     }
 }
